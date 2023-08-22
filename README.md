@@ -10,7 +10,8 @@ Antes de executar o aplicativo, certifique-se de que as dependências sejam sati
 pip install -r requirements.txt
 ```
 
-Após instalar as dependências, você precisa configurar o aplicativo executando o script `setup.py` localizado no diretório `/API/`:
+Após instalar as dependências, Certifique-se também que você tenha `mysql` instalado em sua máquina.
+Após isto você precisa configurar o aplicativo executando o script `setup.py` localizado no diretório `/API/`:
 
 ```bash
 python setup.py
@@ -22,6 +23,8 @@ Esse script realizará tarefas necessárias de configuração, como criar tabela
 Este aplicativo foi desenvolvido apenas para fins de demonstração e teste. Não é recomendado o uso em produção devido a possíveis vulnerabilidades de segurança e falta de otimizações para ambientes de produção.
 
 Além disso, este aplicativo está configurado com `DEBUG = True` no arquivo `settings.py`. 
+
+Testado com `Python 3.7`
 
 ## Uso
 Após a conclusão de `setup.py` será automaticamente iniciada o servidor de desenvolvimento em `localhost`.
