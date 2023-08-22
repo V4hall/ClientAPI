@@ -24,7 +24,7 @@ Este aplicativo foi desenvolvido apenas para fins de demonstração e teste. Nã
 
 Além disso, este aplicativo está configurado com `DEBUG = True` no arquivo `settings.py`. 
 
-Testado com `Python 3.7` no OS Windows.
+Testado com `Python 3.7`, `Python 3.9` e `Python 3.11.4` no OS Windows.
 
 ## Uso
 Após a conclusão de `setup.py` será automaticamente iniciada o servidor de desenvolvimento em `localhost`.
